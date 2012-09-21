@@ -1,0 +1,24 @@
+Welcome to Exoplatform !!!
+
+<div class="tutorial" style="padding: 10px">
+
+    <div>
+
+        <form action="@{add()}" method="post" style="float:left">
+            <fieldset>
+                <div class="controls">
+                    <div class="input-append">
+                        <br>Name<input class="span2" type="text" size="16" name="name" value=""/></br>
+                        <br>Team<input class="span2" type="text" size="16" name="team" value=""/></br>
+                        <button type="submit" class="btn">Check</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>    
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+Hi ${name}, your team is ${team}
